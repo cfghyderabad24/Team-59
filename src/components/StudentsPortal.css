@@ -1,0 +1,6 @@
+.Student li{
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 10px;
+}

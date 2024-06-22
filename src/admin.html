@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Admin Page</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <h1>NGO Admin Dashboard</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#students">Students</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="parents">
+            <h2>Parents Portal</h2>
+            <div class="weekly-analysis">
+                <h3>Weekly Performance Analysis</h3>
+                <select id="studentSelect">
+                    <option value="">Select a student</option>
+                </select>
+                <div id="performanceChart"></div>
+            </div>
+        </section>
+        <section id="students">
+            <h2>Students Portal</h2>
+            <ul id="studentList"></ul>
+        </section>
+        <section id="instructors">
+            <h2>Instructors Portal</h2>
+            <ul id="instructorList"></ul>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>
