@@ -3,7 +3,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 400px; /* Adjust height as needed */
+  height: 500px; /* Adjust height as needed */
 }
 
 .banner {
@@ -13,7 +13,8 @@
 }
 
 .banner img {
-  width: 50%; /* Adjust width to fit half of the container */
+  width: 100%; 
+  /* Adjust width to fit half of the container */
 }
 
 @keyframes scrollBanner {

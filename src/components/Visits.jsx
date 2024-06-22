@@ -3,6 +3,7 @@ import Sidebar from './Sidebar';
 import Header from './Header';
 import './Header.css'
 import './Visits.css'; // Import the CSS file
+import './root.css';
 
 const Visits = () => {
   const [formData, setFormData] = useState({
@@ -27,11 +28,16 @@ const Visits = () => {
   };
 
   return (
+    <div>
+     <div className='root'>
+      <Sidebar />
+      <Header />
+      </div>
+      
     <div className="visits-container">
       <Sidebar />
       <div className="main-content">
         <div className="header-container">
-          <Header />
         </div>
         <div className="content">
           <form className="form-container" onSubmit={handleSubmit}>
@@ -95,6 +101,7 @@ const Visits = () => {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }

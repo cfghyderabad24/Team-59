@@ -15,6 +15,7 @@ export default function Home() {
           <ScrollingBanner/>
         </div>
         <div className="content">
+         
         </div>
       </div>
     </div>
