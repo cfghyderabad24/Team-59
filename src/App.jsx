@@ -6,7 +6,6 @@ import StudDetails from "./components'/StudDetails"
 import AttendanceForm from "./components'/AttendanceForm";
 import Scores from "./components'/Scores";
 import ReviewForm from './components\'/ReviewForm';
-import Home from './components\'/Home';
 function App() {
   const [students] = useState([
     { id: 1, name: 'Student 1' },
@@ -29,7 +28,7 @@ function App() {
       </div>
       <div className="container mt-5">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<StudentGrid />} />
           <Route path="/student/:id" element={<StudDetails />} />
           <Route path='/students' element={<StudentGrid/>}/>
           <Route path="/attendance" element={<AttendanceForm students={students} onSubmit={handleAttendanceSubmit} />}   />
