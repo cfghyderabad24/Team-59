@@ -1,0 +1,26 @@
+/* src/ScrollingBanner.css */
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 400px; /* Adjust height as needed */
+}
+
+.banner {
+  display: flex;
+  width: 200%; /* Double the width to allow scrolling */
+  animation: scrollBanner 10s linear infinite; /* Adjust the duration as needed */
+}
+
+.banner img {
+  width: 50%; /* Adjust width to fit half of the container */
+}
+
+@keyframes scrollBanner {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
