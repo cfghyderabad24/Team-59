@@ -3,14 +3,14 @@ import SideBar from './SideBar'
 import StudentCard from './StudentCard';
 import './StudentGrid.css'
 const students = [
-  { id: 1, name: 'Student 1', image: 'path/to/image1.jpg' },
-  { id: 2, name: 'Student 2', image: 'path/to/image2.jpg' },
-  { id: 3, name: 'Student 3', image: 'path/to/image3.jpg' },
-  { id: 4, name: 'Student 4', image: 'path/to/image4.jpg' },
-  { id: 5, name: 'Student 5', image: 'path/to/image5.jpg' },
-  { id: 6, name: 'Student 6', image: 'path/to/image6.jpg' },
-  { id: 7, name: 'Student 7', image: 'path/to/image7.jpg' },
-  { id: 8, name: 'Student 8', image: 'path/to/image8.jpg' }
+  { id: 1, name: 'Student 1', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' },
+  { id: 2, name: 'Student 2', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' },
+  { id: 3, name: 'Student 3', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' },
+  { id: 4, name: 'Student 4', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' },
+  { id: 5, name: 'Student 5', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' },
+  { id: 6, name: 'Student 6', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' },
+  { id: 7, name: 'Student 7', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' },
+  { id: 8, name: 'Student 8', image: 'https://www.shutterstock.com/image-photo/five-year-old-boy-posing-260nw-2219191675.jpg' }
 ];
 
 const StudentGrid = () => {
@@ -28,6 +28,8 @@ const StudentGrid = () => {
         ))}
       </div>
     </div>
+    <button color='green'>Notify Through sms </button>
+    <button color='green'>Notify Through Whatsapp</button>
         </div>
       </div>
     </div>
