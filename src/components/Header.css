@@ -1,0 +1,32 @@
+.bg-color {
+  background-color: #343a40;
+}
+
+.header-right {
+  margin-left:10%;
+  margin-top: 0%;
+  display: flex;
+  align-items: center;
+}
+
+.form-control-dark {
+  background-color: #495057;
+  color: white;
+}
+
+.btn-outline-light {
+  color: white;
+  border-color: white;
+}
+
+.btn-warning {
+  color: black;
+}
+
+.text-bg-dark {
+  color: white;
+}
+.chatbot_logo{
+  width: 40px;
+  height: 40px;
+}
