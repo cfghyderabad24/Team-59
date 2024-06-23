@@ -2,6 +2,9 @@
 
 import React, { useState } from 'react';
 import './Contact-US.css'; // Import CSS file for styling
+import Header from './Header';
+import './Home.css';
+import Sidebar from './Sidebar';
 
 const ContactUs = () => {
   // State variables to store form data

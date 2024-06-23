@@ -4,6 +4,7 @@ import Header from './Header';
 import './Home.css';
 import Sidebar from './Sidebar';
 import ScrollingBanner from './Scrolling';
+import DonationQRCode from './Qr-Code';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <div className="header-container">
           <Header />
           <ScrollingBanner/>
+          <DonationQRCode/>
         </div>
         <div className="content">
          

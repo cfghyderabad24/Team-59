@@ -7,8 +7,8 @@ import Events from './components/Events';
 import Visits from './components/Visits';
 import Footer from './components/Footer';
 import DonationForm from './components/Donationform';
-import ContactUs from './components/Contact-US';
-
+import ContactUs from './components/contact';
+import SchemesAvailable from './components/Schemes';
 
 function App() {
   return (
@@ -21,7 +21,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/visit" element={<Visits />} />
         <Route path="/donate" element={<DonationForm/>} />
-        <Route path="/events" element={<Events/>} />
+        <Route path="/schemes" element={<SchemesAvailable/>} />
+        <Route path="/contact" element={<ContactUs/>} />
         </Routes>
          {/* <Route path="/Contact-US" element={<ContactUs />}/> */}
         
