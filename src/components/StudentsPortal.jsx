@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./StudentsPortal.css";
 
@@ -14,11 +14,27 @@ const students = [
 ];
 
 function StudentsPortal() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredStudents = students.filter(student =>
+    student.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="Student">
       <h2>Students Portal</h2>
+      <nav className="navbar">
+        <div className="search-container">
+          <input
+            type="text"
+            placeholder="Search students..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
+      </nav>
       <ul>
-        {students.map((student) => (
+        {filteredStudents.map((student) => (
           <li key={student.id}>
             <Link to={`/student/${student.id}`}>{student.name}</Link>
           </li>

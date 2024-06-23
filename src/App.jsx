@@ -5,7 +5,7 @@ import StudentsPortal from "./components/StudentsPortal";
 import InstructorsPortal from "./components/InstructorsPortal";
 // import VisitsPortal from "./components/VisitsPortal";
 import EventsPortal from "./components/EventsPortal";
-import StudentsPerformance from "./components/StudentsPerformance";
+import StudentAnalysis from "./components/StudentAnalysis";
 import SideBar from "./components/SideBar";
 import "./App.css";
 
@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <SideBar />
         <header className="fixed-top">
-          <h1>NGO Admin Dashboard</h1>
+          
         </header>
         <main>
           <Routes>
@@ -24,7 +24,7 @@ function App() {
             <Route path="/instructors" element={<InstructorsPortal />} />
             {/* <Route path="/visits" element={<VisitsPortal />} />  */}
             <Route path="/events" element={<EventsPortal />} />
-            <Route path="/students/:id" element={<StudentsPerformance />} /> 
+            <Route path="/student/:id" element={<StudentAnalysis />} /> 
           </Routes>
         </main>
       </div>
