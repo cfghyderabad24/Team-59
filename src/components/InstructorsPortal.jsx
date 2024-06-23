@@ -1,4 +1,5 @@
 import React from 'react';
+import "./instructor.css"
 
 const instructors = [
   { id: 1, name: "Instructor1" },

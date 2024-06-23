@@ -174,7 +174,7 @@ function EventsPortal() {
                   checked={selectedSocialMedia.facebook}
                   onChange={handleSocialMediaChange}
                 />
-                <FaFacebook/>Facebook  
+                <FaFacebook style={{color: 'blue'}}/>Facebook  
               </label>
             </div>
             <div>
@@ -185,7 +185,7 @@ function EventsPortal() {
                   checked={selectedSocialMedia.twitter}
                   onChange={handleSocialMediaChange}
                 />
-                <FaTwitter/>Twitter
+                <FaTwitter style={{color: 'lightblue'}}/>Twitter
               </label>
             </div>
             <div>
@@ -196,7 +196,7 @@ function EventsPortal() {
                   checked={selectedSocialMedia.instagram}
                   onChange={handleSocialMediaChange}
                 />
-                <FaInstagram/>Instagram
+                <FaInstagram style={{color: 'pink'}}/>Instagram
               </label>
             </div>
             <div>
@@ -207,7 +207,7 @@ function EventsPortal() {
                   checked={selectedSocialMedia.linkedin}
                   onChange={handleSocialMediaChange}
                 />
-                <FaLinkedin/>LinkedIn
+                <FaLinkedin style={{color: 'blue'}}/>LinkedIn
               </label>
             </div>
             <button onClick={handlePostEvent}>Post Event</button>

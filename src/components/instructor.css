@@ -1,0 +1,18 @@
+.instructors-portal { /* Add a class to the main container */
+    margin: 1rem; /* Add some margin for spacing */
+  }
+  
+  .instructors-portal h2 {
+    text-align: center; /* Center the heading text */
+  }
+  
+  .instructors-portal ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .instructors-portal li {
+    margin-bottom: 0.5rem; /* Add some space between instructors */
+  }
+  

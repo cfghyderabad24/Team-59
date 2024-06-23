@@ -6,7 +6,7 @@ import InstructorsPortal from "./components/InstructorsPortal";
 // import VisitsPortal from "./components/VisitsPortal";
 import EventsPortal from "./components/EventsPortal";
 import StudentAnalysis from "./components/StudentAnalysis";
-import SideBar from "./components/SideBar";
+import SideBar from "./components/SideBarA";
 import "./App.css";
 
 function App() {
