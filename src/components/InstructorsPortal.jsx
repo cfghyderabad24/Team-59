@@ -1,8 +1,8 @@
 import React from 'react';
 
 const instructors = [
-  { id: 1, name: "Prof. Johnson" },
-  { id: 2, name: "Dr. Williams" },
+  { id: 1, name: "Instructor1" },
+  { id: 2, name: "Instructor2" },
 
 ];
 
