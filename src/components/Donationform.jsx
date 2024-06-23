@@ -140,7 +140,7 @@ const DonationForm = () => {
 
 const formStyle = {
   maxWidth: '400px',
-  margin: '5em auto',
+  margin: '3rem auto',
   padding: '1em',
   borderRadius: '5px',
   boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',

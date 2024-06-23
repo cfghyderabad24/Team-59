@@ -6,6 +6,7 @@ import Sidebar from './Sidebar';
 import ScrollingBanner from './Scrolling';
 import DonationQRCode from './Qr-Code';
 
+
 export default function Home() {
   return (
     <div className='my-class'>

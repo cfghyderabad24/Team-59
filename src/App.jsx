@@ -8,7 +8,7 @@ import Visits from './components/Visits';
 import Footer from './components/Footer';
 import DonationForm from './components/Donationform';
 import ContactUs from './components/contact';
-import SchemesAvailable from './components/Schemes';
+import SchemesAvailable from './components/Schemes'
 
 function App() {
   return (
