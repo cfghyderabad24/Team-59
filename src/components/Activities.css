@@ -1,0 +1,27 @@
+/* src/components/Activities.css */
+
+.items {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .Activities {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .items img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .main-content {
+    margin-left: 200px;
+    padding: 0px;
+  }
+  
+  .header-container {
+    padding-top: 0px; 
+  }
+  

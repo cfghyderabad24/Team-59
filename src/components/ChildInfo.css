@@ -1,0 +1,11 @@
+body{
+  background-color: rgb(244, 155, 123);
+}
+.main-content {
+    margin-left: 300px;
+    padding: 0px;
+  }
+  
+  .header-container {
+    padding-top: 0px; 
+  }
